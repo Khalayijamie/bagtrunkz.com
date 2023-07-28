@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>BagTrunkz - Sign Up</title>
+</head>
+<body>
+  <header>
+    <h1><i>BagTrunkz</i></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="signUp.html">SignUp</a></li>
+        <li><a href="signIn.html">Sign In</a></li>
+        <li><a href="viewBlog.html">Blog</a></li>
+        <li><a href="contactUs.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="signup">
+      <h2>Create an Account</h2>
+      <form action="submit_form.php" method="POST">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Sign Up</button>
+      </form>
+      <p>Already have an account? <a href="signIn.html">Signin here</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Bag Shop. All rights reserved.</p>
+  </footer>
+</body>
+</html>

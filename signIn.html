@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>BagTrunkz- Sign In</title>
+</head>
+<body>
+  <header>
+    <h1><i>BagTrunkz</i></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="signUp.html">SignUp</a></li>
+        <li><a href="signIn.html">Sign In</a></li>
+        <li><a href="viewBlog.html">Blog</a></li>
+        <li><a href="contactUs.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="signin">
+      <h2>Sign In to Your Account</h2>
+      <form action="login.php" method="POST">
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <button type="submit" class="btn">Sign In</button>
+      </form>
+      <p>Don't have an account yet? <a href="signUp.html">Sign up here</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 BagTrunkz. All rights reserved.</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,147 @@
+
+body {
+    color: rgb(0, 0, 0);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #192823;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #6f2c2c;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Styles for an appealing and well-designed website */
+  body {
+    background-color: #6b4e4e;
+  }
+  
+  h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+  }
+  
+  a {
+    color: #ff9800;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  .hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #281818;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff9800;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f57c00;
+  }
+  
+  .features {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .feature {
+    flex-basis: 30%;
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature img {
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  @media (max-width: 768px) {
+    header {
+      padding: 10px;
+    }
+  
+    h1 {
+      font-size: 24px;
+    }
+  
+    nav ul li {
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .hero {
+      padding: 50px 0;
+    }
+  
+    .features {
+      flex-wrap: wrap;
+    }
+  
+    .feature {
+      flex-basis: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
